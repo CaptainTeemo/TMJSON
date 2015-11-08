@@ -5,24 +5,41 @@
 [![License](https://img.shields.io/cocoapods/l/TMJSON.svg?style=flat)](http://cocoapods.org/pods/TMJSON)
 [![Platform](https://img.shields.io/cocoapods/p/TMJSON.svg?style=flat)](http://cocoapods.org/pods/TMJSON)
 
-## Usage
+TMJSON is a [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) style tool to deal with JSON.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+# Requirements
+- iOS 7.0+
+- Xcode 7
 
-## Requirements
+# Adding to your project
 
-## Installation
+##Using CocoaPods
 
-TMJSON is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+Just add pod 'TMJSON' to your Podfile.
 
-```ruby
-pod "TMJSON"
+# Usage
+
+The APIs are quite like SwiftyJSON.
+
+``` Objective-C
+TMJSON *json = [[TMJSON alloc] initWithObject:responseObject];
+        
+NSArray *rootArray = json.arrayValue;
+NSLog(@"array: %@", rootArray);
+        
+TMJSON *firstObject = rootArray[0];
+NSString *wrongKey = firstObject[@"Teemo"].stringValue;
+NSLog(@"wrongKey: %@", wrongKey);
+        
+NSString *name = firstObject[@"name"].stringValue;
+NSLog(@"name: %@", name);
+        
+NSDictionary *address = firstObject[@"address"].dictionaryValue;
+NSLog(@"address: %@", address);
+        
+double latitude = firstObject[@"address"][@"geo"][@"lat"].doubleValue;
+NSLog(@"lat: %f", latitude);
 ```
-
-## Author
-
-Captain Teemo, chriswoody05@icloud.com
 
 ## License
 
