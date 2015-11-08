@@ -1,0 +1,6 @@
+framework module TMJSON {
+  umbrella header "TMJSON-umbrella.h"
+
+  export *
+  module * { export * }
+}
