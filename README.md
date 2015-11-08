@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/TMJSON.svg?style=flat)](http://cocoapods.org/pods/TMJSON)
 [![Platform](https://img.shields.io/cocoapods/p/TMJSON.svg?style=flat)](http://cocoapods.org/pods/TMJSON)
 
-TMJSON is a [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) style tool to deal with JSON.
+TMJSON is a [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) style tool to deal with JSON. The implementation is totally inspired by SwiftyJSON.
 
 # Requirements
 - iOS 7.0+
