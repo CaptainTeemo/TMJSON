@@ -19,7 +19,7 @@ Just add pod 'TMJSON' to your Podfile.
 
 # Usage
 
-The APIs are quite similar.
+Usage is quite similar.
 
 ``` Objective-C
 TMJSON *json = [[TMJSON alloc] initWithObject:responseObject];
