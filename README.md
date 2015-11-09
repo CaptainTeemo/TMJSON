@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/TMJSON.svg?style=flat)](http://cocoapods.org/pods/TMJSON)
 [![Platform](https://img.shields.io/cocoapods/p/TMJSON.svg?style=flat)](http://cocoapods.org/pods/TMJSON)
 
-TMJSON is a [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) style tool to deal with JSON. The implementation is totally inspired by SwiftyJSON.
+TMJSON is a [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) like tool to deal with JSON. The implementation is totally inspired by it.
 
 # Requirements
 - iOS 7.0+
@@ -19,7 +19,7 @@ Just add pod 'TMJSON' to your Podfile.
 
 # Usage
 
-The APIs are quite like SwiftyJSON.
+The APIs are quite similar.
 
 ``` Objective-C
 TMJSON *json = [[TMJSON alloc] initWithObject:responseObject];
