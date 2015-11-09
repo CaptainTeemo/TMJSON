@@ -17,7 +17,7 @@ TMJSON is a [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) like tool to 
 
 Just add pod 'TMJSON' to your Podfile.
 
-# Usage
+# Example
 
 Usage is quite similar.
 
