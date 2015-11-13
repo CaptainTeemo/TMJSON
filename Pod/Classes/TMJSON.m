@@ -199,8 +199,7 @@
 #pragma mark - Integer Value
 
 - (NSInteger)integerValue {
-    NSNumber *number = (NSNumber *)self.privateObject;
-    return [number integerValue];
+    return [self.numberValue integerValue];
 }
 
 - (void)setIntegerValue:(NSInteger)integerValue {
