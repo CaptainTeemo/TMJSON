@@ -1,6 +1,5 @@
 # TMJSON
 
-[![CI Status](http://img.shields.io/travis/Captain Teemo/TMJSON.svg?style=flat)](https://travis-ci.org/Captain Teemo/TMJSON)
 [![Version](https://img.shields.io/cocoapods/v/TMJSON.svg?style=flat)](http://cocoapods.org/pods/TMJSON)
 [![License](https://img.shields.io/cocoapods/l/TMJSON.svg?style=flat)](http://cocoapods.org/pods/TMJSON)
 [![Platform](https://img.shields.io/cocoapods/p/TMJSON.svg?style=flat)](http://cocoapods.org/pods/TMJSON)
@@ -13,7 +12,7 @@ TMJSON provides a safe and easy way to play with JSON, totally inspired by [Swif
 
 # Adding to your project
 
-##Using CocoaPods
+## Using CocoaPods
 
 Just add pod 'TMJSON' to your Podfile.
 
